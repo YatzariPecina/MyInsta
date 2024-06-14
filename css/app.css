@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.nav-item:hover{
+    background-color: rgb(206, 206, 206);
+}
+.logo{
+    height: 40px;
+}
+.dropdown button:focus{
+    outline: none;
+    border: 0;
+}
+.dropdown button:hover{
+    background-color: rgb(206, 206, 206);
+}
+.bg-register-login{
+    background-image: url('../img/img-login-register.jpg');
+    background-position: center center;
+    object-fit: cover;
+}
+.bg-gradient-login{
+    background: #e7aaff;
+    background: linear-gradient(#8e64ff, #e7aaff);
+}
+.bg-header{
+    background-color: #8e64ff;
+}
+.user-img{
+    height: 30px;
+    width: 30px;
+}
